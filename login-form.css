@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(../img/background.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+label.label {
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Noto Serif', serif;
+}
+
+div.login-form {
+    border: 1px solid whitesmoke;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    line-height: 15px;
+    border-radius: 5px;
+    background: url(../img/keybord.jpg);
+    box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+    
+}
+
+div.login-form label {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+div.login-form input {
+    width: 250px;
+    height: 30px;
+}
+
+div.login-form button {
+    margin: -20px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+div.login-form a{
+    margin-top: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+div.login-form a:hover{
+    color: black;
+    opacity: 0.5;
+}
